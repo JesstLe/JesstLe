@@ -51,7 +51,13 @@
 ---
 
 <p align="center">
+  <b>Lyu Junhua</b> · <a href="mailto:lv1335765788@gmail.com">lv1335765788@gmail.com</a>
+</p>
+<p align="center">
   <a href="https://github.com/JesstLe">
     <img src="https://img.shields.io/badge/GitHub-@JesstLe-181717?logo=github&style=flat-square" />
+  </a>
+  <a href="mailto:lv1335765788@gmail.com">
+    <img src="https://img.shields.io/badge/Email-lv1335765788@gmail.com-D14836?logo=gmail&logoColor=white&style=flat-square" />
   </a>
 </p>
