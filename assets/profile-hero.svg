@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lyu Junhua — JesstLe</title>
+  <desc id="desc">Independent developer focused on AI products, ecommerce systems and developer tools.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="358" rx="18"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#F8FAFC"/>
+    <rect width="1200" height="360" fill="url(#grid)" opacity="0.78"/>
+    <rect width="14" height="360" fill="#2563EB"/>
+    <path d="M805 0H1200V360H715L805 0Z" fill="#EFF6FF"/>
+    <path d="M940 0H1200V360H850L940 0Z" fill="#DBEAFE" opacity="0.75"/>
+    <g transform="translate(70 76)">
+      <rect width="208" height="208" rx="28" fill="#0F172A"/>
+      <path d="M55 52V129C55 153 67 165 92 165H113" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="square"/>
+      <path d="M153 52V125C153 151 141 165 116 165H105" fill="none" stroke="#60A5FA" stroke-width="18" stroke-linecap="square"/>
+      <rect x="55" y="52" width="98" height="18" fill="#FFFFFF"/>
+      <circle cx="166" cy="43" r="8" fill="#60A5FA"/>
+    </g>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="326" y="105" font-size="17" font-weight="700" letter-spacing="4" fill="#2563EB">INDEPENDENT DEVELOPER</text>
+      <text x="322" y="174" font-size="62" font-weight="750" letter-spacing="-2" fill="#0F172A">LYU JUNHUA</text>
+      <text x="326" y="215" font-size="24" font-weight="600" fill="#475569">@JesstLe</text>
+      <line x1="326" y1="244" x2="740" y2="244" stroke="#CBD5E1" stroke-width="2"/>
+      <text x="326" y="283" font-size="18" font-weight="600" fill="#334155">AI PRODUCTS</text>
+      <circle cx="465" cy="277" r="4" fill="#2563EB"/>
+      <text x="486" y="283" font-size="18" font-weight="600" fill="#334155">E-COMMERCE</text>
+      <circle cx="642" cy="277" r="4" fill="#2563EB"/>
+      <text x="663" y="283" font-size="18" font-weight="600" fill="#334155">AGENT SYSTEMS</text>
+    </g>
+    <g transform="translate(928 93)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text font-size="13" font-weight="700" letter-spacing="2" fill="#64748B">CURRENTLY BUILDING</text>
+      <text y="47" font-size="38" font-weight="750" fill="#0F172A">NAUMI</text>
+      <rect y="72" width="158" height="2" fill="#2563EB"/>
+      <text y="109" font-size="16" font-weight="600" fill="#334155">AI visual workspace</text>
+      <text y="137" font-size="16" fill="#64748B">for ecommerce teams</text>
+      <g transform="translate(0 177)">
+        <rect width="148" height="42" rx="6" fill="#FFFFFF" stroke="#BFDBFE"/>
+        <circle cx="22" cy="21" r="6" fill="#22C55E"/>
+        <text x="39" y="27" font-size="14" font-weight="700" fill="#334155">SHIP · VERIFY</text>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="18" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+</svg>
