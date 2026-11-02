@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="328" viewBox="0 0 1280 328" role="img" aria-labelledby="title">
+  <title id="title">JesstLe</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f7f9ff"/>
+      <stop offset="1" stop-color="#edf3ff"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7c86ff"/>
+      <stop offset="0.5" stop-color="#5865e8"/>
+      <stop offset="1" stop-color="#4555cf"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#86c9df"/>
+      <stop offset="1" stop-color="#4aa6c2"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#a5b4d9" opacity="0.32"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="328" rx="24" fill="url(#paper)"/>
+  <rect x="690" width="590" height="328" rx="24" fill="url(#grid)"/>
+  <circle cx="1088" cy="94" r="180" fill="#e8eaff" opacity="0.65"/>
+  <path d="M64 67h34" stroke="#5865e8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M112 67h12" stroke="#67b5cb" stroke-width="6" stroke-linecap="round"/>
+  <text x="58" y="212" fill="#1d2845" font-family="Segoe UI,Arial,sans-serif" font-size="116" font-weight="700" letter-spacing="-6">JesstLe</text>
+  <path d="M508 213h43" stroke="#5865e8" stroke-width="9"/>
+  <path d="M64 272H692" stroke="#cfd8ed"/>
+  <circle cx="692" cy="272" r="4" fill="#67b5cb"/>
+  <g transform="translate(872 38)">
+    <path d="M-36 121 116 24l152 97-152 97Z" fill="none" stroke="#cbd4f1"/>
+    <path d="M-36 155 116 58l152 97-152 97Z" fill="none" stroke="#d6def2"/>
+    <path d="m-36 121 0 34m304-34v34" stroke="#cbd4f1"/>
+    <path d="m50 69 65-41 65 41-26 17-39-25-39 25Z" fill="#a7aefe"/>
+    <path d="m180 69 0 88-65 42v-36l39-25V86Z" fill="url(#ribbon)"/>
+    <path d="m115 163-65-41v35l65 42Z" fill="#3f4dc3"/>
+    <path d="m50 122 26-17 39 25 39-25v33l-39 25Z" fill="#7985ed"/>
+    <path d="m50 69 26 17v19l-26 17Z" fill="#c8ceff"/>
+    <path d="m76 86 39-25 39 25-39 25Z" fill="#f7f9ff"/>
+    <path d="m76 86 39 25v19l-39-25Z" fill="#e4e8ff"/>
+    <path d="m115 111 39-25v19l-39 25Z" fill="#cdd5fa"/>
+    <path d="m208 172 23-14 23 14-23 15Z" fill="#a1d8e7"/>
+    <path d="m208 172 23 15v28l-23-15Z" fill="#69b7ce"/>
+    <path d="m231 187 23-15v28l-23 15Z" fill="url(#edge)"/>
+    <circle cx="-36" cy="121" r="4" fill="#8293d6"/>
+    <circle cx="116" cy="252" r="4" fill="#8293d6"/>
+    <path d="M242 39h16m-8-8v16" stroke="#8493ce" stroke-width="2"/>
+  </g>
+</svg>
