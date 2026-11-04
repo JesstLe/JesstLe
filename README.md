@@ -37,7 +37,16 @@
   </tr>
 </table>
 
-## 开源参与
+## 开源贡献
 
-- **[t3code · 终端历史修复](https://github.com/pingdotgg/t3code/pull/21654)** — 修复加密文件系统上的文件名长度问题，已合并。
-- **[new-api · 注册接口限流](https://github.com/QuantumNous/new-api/pull/7466)** — 提交独立的注册频率限制改进 PR。
+累计向外部开源项目提交多个 PR；以下五项代表贡献中，**2 项已合并**。
+
+- **[t3code #21654](https://github.com/pingdotgg/t3code/pull/21654) 已合并。**针对 eCryptfs 的 143 字节文件名限制，对超长 ID 使用 SHA-256 摘要标识并兼容旧历史迁移；新增 11 个回归用例，PR 验收中终端管理模块 109 项测试通过。
+
+- **[ECDICT #149](https://github.com/skywind3000/ECDICT/pull/149) 已合并。**修复 Python 3 导出 StarDict 时的 str/bytes 类型错误，补充空词典与多语言导出测试；2 项回归在 Python 2.7、3.12、3.14 通过。
+
+- **[Qwen Code #16115](https://github.com/QwenLM/qwen-code/pull/16115) 已提交，待合并。**修复多图片路径粘贴被错误合并的问题，支持独立引号与转义空格；新增 21 项回归测试，相关输入组件测试 291 项通过。
+
+- **[Google harness2 #164](https://github.com/google-research/harness2/pull/164) 已提交，待合并。**在 Hook 配置校验阶段拦截非字符串 matcher，防止整份 Hook 文件被忽略；补充无效类型、有效值及混合分组回归测试。
+
+- **[new-api #7466](https://github.com/QuantumNous/new-api/pull/7466) 已关闭，未合并。**为密码注册增加独立的按 IP 限流预算，兼容 Redis 与内存路径；超限返回 HTTP 429 与 Retry-After。
